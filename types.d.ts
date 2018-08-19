@@ -1,0 +1,1 @@
+declare module '*.scss' // Prevents `import styles from './foo.scss` from causing TypeScript errors.

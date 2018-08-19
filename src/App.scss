@@ -1,0 +1,13 @@
+:global(*) {
+  /* Eliminate any default margin/padding for all elements */
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  padding: 18px;
+  background-color: rgb(113, 170, 223);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

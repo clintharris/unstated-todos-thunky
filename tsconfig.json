@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // Allow default imports from modules with no default export (`import React from 'react'`).
+    "jsx": "react",          // Support JSX in .tsx files. "react" means output files will have. js extension.
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"]
+    },
+    "lib": [
+      "es2015",
+      "dom"    // Adds type definition for objects like `console`
+    ]
+  }
+}
