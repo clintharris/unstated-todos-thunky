@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Recreates the Redux ToDo example with Unstated",
   "private": true,
+  "main": "src/index.html",
   "scripts": {
-    "serve": "parcel --no-cache --no-autoinstall -p 1234 src/index.html",
+    "serve": "parcel --no-cache --no-autoinstall -p 1234 ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Clint Harris",
