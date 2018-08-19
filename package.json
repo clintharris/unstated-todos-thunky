@@ -2,7 +2,7 @@
   "name": "unstated-todos-thunky",
   "version": "0.0.1",
   "description": "Recreates the Redux ToDo example with Unstated",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "serve": "parcel --no-cache --no-autoinstall -p 1234 src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
